@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            
+            text-decoration: underline; 
+            font-weight: 900;
+            font-style: italic;
+            /*
+            weight = peso -> height = altura -> width = largura
+
+            existem alguns pesos (nem todas as fontes tem todos esses)
+            lighter - normal - bold - bolder
+            os pesos podem ser também em números de 100 a 900
+            */
+        }
+
+        h2{
+            /*shorthand - mãozinha - reduz o tamanho das linhas do css
+
+            font-style, font-weight, font-size, font-family
+
+            font-family: 'work sans', Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            font-weight: bold;
+            font-style: italic;
+            */
+            font: italic bold 2em 'work sans', sans-serif;
+
+        }   
+    </style>
+</head>
+<body>
+    <h2>Trabalhando com Fontes</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quas minima blanditiis dolores quam ratione eligendi quia temporibus ab repellendus provident, quae reprehenderit aliquam voluptatem amet suscipit error molestias? Possimus.</p>
+
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad rerum quas veniam cumque molestias doloremque dolorum perspiciatis voluptatum saepe corporis dicta, repellat laborum, consequatur suscipit similique rem voluptas, quod dolor?</p>
+</body>
+</html>

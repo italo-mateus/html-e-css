@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*
+Em Html id = em css vira #
+em Html class = em css vira .
+*/
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#prin{
+    color: blueviolet;
+    text-align: center;
+}
+
+.ti{
+    color: blueviolet;
+}
+
+h1{
+    color: aqua;
+
+}
+
+h2{
+    color: blue;
+}
